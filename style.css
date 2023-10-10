@@ -1,0 +1,213 @@
+.all{
+    display:flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+body{
+    font-family:'Poppins';
+    background-color: lightgray;
+}
+.all{
+    margin:30px 50px 30px 50px;
+}
+.flowers{
+    width:35%;
+    position: relative;
+    
+}
+.text {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    
+    /* left: 18rem; */
+    top: 2rem;
+    margin:50px;
+}
+.text p{
+    font-size: 15px;
+}
+.signUp{
+    padding:40px;
+    width:35%;
+    height:80vh;
+    background-color:white;
+}
+img{
+    object-fit: contain;
+}
+.flowers{
+    width:450px;
+    height:651px;
+
+    /* width:350px;
+        height:570px; */
+}
+.flowers img{
+    height:91.4vh;
+}
+.flowers p{
+    color:white;
+}
+.flowers h1{
+    color:white;
+}
+h1{
+    font-size:25px;
+    padding-top:60px;
+    color: rgba(51, 51, 51, 1);
+
+}
+.stuff{
+    width:100%;
+}
+p{
+    color:rgba(51, 51, 51, 1);
+}
+.right{
+    float:right;
+    padding:5px;
+}
+.last{
+    padding:5px;
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logout{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.final{
+
+    font-size: 45px;
+}
+button{
+    font-size:15px;
+    color: rgba(51, 51, 51, 1);
+
+    background-color: white;
+    border-color: rgb(158, 157, 157);
+    border-style:solid;
+    /* border:15px; */
+    cursor:pointer;
+    width:90%;
+    height: 3em;
+    margin:10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+h4 { 
+    display: flex; 
+    flex-direction: row; 
+    color:rgba(102, 102, 102, 1);
+
+} 
+  
+h4:before, 
+h4:after { 
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 2px solid rgba(102, 102, 102, 0.25);
+    margin: auto; 
+    
+} 
+label{
+    color: rgba(102, 102, 102, 1);
+    font-size: 12px;
+}
+
+input{
+    width:100%;
+    
+    border-color: rgba(102, 102, 102, 0.35);
+    border-style:solid;
+    height:35px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+p{
+    font-size: 12px;
+}
+a{
+    float:right;
+    font-size: 12px;
+}
+.submit{
+    height: 3em;
+    background-color:rgba(153, 120, 37, 1);
+    width:70%;
+    cursor:pointer;
+    color:white;
+    padding:15px;
+    border-width: 0px;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+    
+}
+.small{
+    width:20px;
+    height:20px;
+
+}
+.vertical2{
+    display:flex;
+    flex-direction: column;
+}
+h5{
+    font-size: 10px;
+    color:red;
+    margin:0px;
+    padding:0px;
+}
+#logOut{
+    background-color:rgba(235, 67, 53, 1);
+    width:200px;
+    border-width: 0px;
+    color:white;
+}
+@media only screen and (max-width: 1300px) {
+    .flowers{
+        width:430px;
+    }
+    .final{
+
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+
+    .all{
+        display:flex;
+        flex-direction: column;
+    }
+    .flowers{
+        
+        width:350px;
+        height:570px;
+    }
+    .signUp{
+        width:350px;
+        height:570px;
+    }
+    .final{
+
+        font-size: 20px;
+    }
+    #logOut{
+        font-size:12px;
+    }
+}

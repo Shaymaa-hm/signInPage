@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel='stylesheet' href='./style.css'>
+
+</head>
+
+<body>
+    <div class="all">
+        <div class="flowers">
+            <img src="flowers.png">
+            <div class="text">
+                <h1>Work with us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis maximus nunc, ac rhoncus odio
+                    congue quis. Sed ac semper orci, eu porttitor lacus. </p>
+            </div>
+
+        </div>
+        <div class="signUp">
+            <p class="right">Don't have an account? <a href="">Sign up</a></p>
+
+            <div class="stuff">
+                <h1>Welcome Back!</h1>
+                <div class="vertical">
+                    <button><img class="small" src="google.svg"> Continue with Google</button>
+                    <button><img class="small" src="twitter.svg"> Continue with Twitter</button>
+                </div>
+                <div>
+                    <h4> OR </h4>
+                </div>
+
+                <form>
+                    <label for="email">Enter your email address</label><br>
+                    <input type="text" id="email" name="email" value=""><br>
+                    <h5 id="invalidEmail"></h5>
+
+                    <label for="password">Enter your password</label><br>
+                    <input type="password" id="password" name="password" value=""><br>
+                    <h5 id="invalidPw"></h5>
+                    <br>
+                    <a href="">Forget your password</a>
+                    <div class="vertical2">
+                        <input class="submit" type="submit" value="Sign in">
+                        <a class="right">Don't have an account?<a class ="last" href="">Sign up</a> </a>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src='script.js'></script>
+
+</html>
